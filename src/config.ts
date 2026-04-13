@@ -31,6 +31,46 @@ Do NOT use for currency conversion -- use finance_convert_currency instead. Do N
         },
         required: ["value", "from", "to"],
       },
+      outputSchema: {
+          "type": "object",
+          "properties": {
+            "input": {
+              "type": "object",
+              "properties": {
+                "value": {
+                  "type": "number"
+                },
+                "unit": {
+                  "type": "string"
+                }
+              }
+            },
+            "output": {
+              "type": "object",
+              "properties": {
+                "value": {
+                  "type": "number"
+                },
+                "unit": {
+                  "type": "string"
+                }
+              }
+            },
+            "category": {
+              "type": "string",
+              "description": "Unit category (length, weight, temperature, etc.)"
+            },
+            "formula": {
+              "type": "string",
+              "description": "Conversion formula"
+            }
+          },
+          "required": [
+            "input",
+            "output",
+            "category"
+          ]
+        },
     },
   ],
 };
