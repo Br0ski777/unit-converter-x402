@@ -2,7 +2,7 @@
   "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
   "name": "io.github.Br0ski777/unit-converter",
   "title": "Unit Converter API",
-  "description": "Unit conversion — length, weight, temperature, volume, speed, data. x402 micropayment.",
+  "description": "Unit conversion \u00e2\u20ac\u201d length, weight, temperature, volume, speed, data. x402 micropayment.",
   "version": "1.0.0",
   "websiteUrl": "https://github.com/Br0ski777/unit-converter-x402",
   "repository": {
@@ -12,7 +12,7 @@
   "remotes": [
     {
       "type": "sse",
-      "url": "https://unit-converter-x402-production.up.railway.app/mcp"
+      "url": "https://unit-converter-production-0b91.up.railway.app/mcp"
     }
   ]
 }
