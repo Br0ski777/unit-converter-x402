@@ -12,7 +12,7 @@
   "remotes": [
     {
       "type": "sse",
-      "url": "https://unit-converter-production-0b91.up.railway.app/mcp"
+      "url": "https://unit-converter-x402-production.up.railway.app/mcp"
     }
   ]
 }
