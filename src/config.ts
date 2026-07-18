@@ -9,7 +9,7 @@ export const API_CONFIG: ApiConfig = {
     {
       method: "POST",
       path: "/api/convert",
-      price: "$0.001",
+      price: "$0.003",
       description: "Convert a value between measurement units",
       toolName: "utility_convert_units",
       toolDescription: `Use this when you need to convert between measurement units. Returns the conversion result with formula in JSON.
