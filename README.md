@@ -37,7 +37,7 @@ Any x402-aware client ([`@x402/fetch`](https://www.npmjs.com/package/@x402/fetch
 
 | Tool | Method | Path | Price | Description |
 |---|---|---|---|---|
-| `utility_convert_units` | POST | `/api/convert` | $0.001 | Convert a value between measurement units |
+| `utility_convert_units` | POST | `/api/convert` | $0.003 | Convert a value between measurement units |
 
 ### `utility_convert_units`
 
